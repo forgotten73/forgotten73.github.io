@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.header {
+  height: 88px;
+  max-width: 944px;
+  margin: 0 auto;
+}
+
+.menu {
+  width: 100%;
+}
+
+.list {
+  height: 88px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.item {
+  list-style-type: none;
+}
+
+.link {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+  -webkit-transition: all 0.6s ease-out 0s;
+  transition: all 0.6s ease-out 0s;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: #070707;
+  -webkit-transition: all 0.6s ease-out 0s;
+  transition: all 0.6s ease-out 0s;
+}
+
+.greeting {
+  min-height: 768px;
+  padding: 40px 0 104px 0;
+}
+
+.container {
+  width: 944px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: last baseline;
+      -ms-flex-align: last baseline;
+          align-items: last baseline;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #070707;
+}
+
+.info {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+}
+
+.langswitcher {
+  -webkit-transform: translate(33%, -100%) rotate(-90deg);
+          transform: translate(33%, -100%) rotate(-90deg);
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.langswitcher_word {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+  text-transform: uppercase;
+  -webkit-transition: all 0.6s ease-out 0s;
+  transition: all 0.6s ease-out 0s;
+}
+
+.langswitcher_word:hover {
+  text-decoration: none;
+  color: #070707;
+  -webkit-transition: all 0.6s ease-out 0s;
+  transition: all 0.6s ease-out 0s;
+}
+
+.photo {
+  margin-top: 54px;
+}
+
+.about {
+  min-width: 506px;
+  background: #F6F6F6;
+  padding: 120px 0 107px 0;
+}
+
+.title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 42px;
+  color: #070707;
+}
+
+.description {
+  margin: 0 auto;
+  margin-top: 17px;
+  width: 485px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+}
+
+.skills {
+  min-height: 610px;
+  padding: 91px 0 110px 0;
+}
+
+.subtitle {
+  margin-top: 69px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+}
+
+.skill-items {
+  margin-top: 83px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.portfolio {
+  min-height: 2253px;
+  padding: 113px 0 96px 0;
+  background-color: #F6F6F6;
+}
+
+.fashion-store {
+  margin-top: 47px;
+}
+
+.reebok-store {
+  margin-top: 99px;
+}
+
+.braun-store {
+  margin-top: 99px;
+}
+
+.link-store {
+  display: block;
+  margin-top: 45px;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration: none;
+  color: #070707;
+}
+
+.link-store:hover {
+  color: #070707;
+  text-decoration: underline;
+}
+
+.contact {
+  min-height: 622px;
+  padding: 114px 0 123px 0;
+}
+
+.contact__wrapper {
+  width: 343px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact .subtitle-footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.button {
+  margin-top: 30px;
+  width: 180px;
+  height: 42px;
+  background: #070707;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
+}
+
+.social {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 86px;
+}
+
+.text {
+  margin-top: 45px;
+  text-align: center;
+  color: #828282;
+}
+/*# sourceMappingURL=style.css.map */
