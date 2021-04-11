@@ -298,6 +298,12 @@ h1, h2, h3, h4, h5, h6 {
   color: #828282;
 }
 
+@media (max-width: 1200px) {
+  .menu__link:hover {
+    color: #070707;
+  }
+}
+
 @media (max-width: 991px) {
   .header {
     margin: 0 20px;
