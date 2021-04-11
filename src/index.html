@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/style.min.css">
     <title>Portfolio</title>
@@ -11,30 +12,30 @@
 <body>
     <header class="header">
         <nav class="menu">
-            <ul class="list">
-                <li class="item"><a href="#" class="link">Home</a></li>
-                <li class="item"><a href="#" class="link">About me</a></li>
-                <li class="item"><a href="#" class="link">Skills</a></li>
-                <li class="item"><a href="#" class="link">Portfolio</a></li>
-                <li class="item"><a href="#" class="link">Contacts</a></li>
+            <ul class="menu__list">
+                <li class="menu__item"><a href="#" class="menu__link">Home</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">About me</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Skills</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Portfolio</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Contacts</a></li>
             </ul>
         </nav>
     </header>
     <section class="greeting">
         <div class="container">
             <div class="wrapper">
-                <h1 class="name">
+                <h1 class="wrapper__name">
                     Denis <br>
                     Novik
                 </h1>
-                <div class="info">
+                <div class="wrapper__info">
                     UX | UI designer <br>
                     24 years old, Minsk
                 </div>
-                    <div class="langswitcher">
-                        <a href="#" class="langswitcher_word">ru</a>
+                    <div class="wrapper__langswitcher">
+                        <a href="#" class="wrapper__langswitcher wrapper__langswitcher_word">ru</a>
                         |
-                        <a href="#" class="langswitcher_word">eng</a>
+                        <a href="#" class="wrapper__langswitcher wrapper__langswitcher_word">eng</a>
                     </div>
             </div>
             <div class="photo">
@@ -47,18 +48,18 @@
             About me
         </h2>
         <div class="description">
-            <p>
+            <div class="description__paragraph">
                 Hi, I'm Denis – UX/UI designer from Minsk.<br>
                 I'm interested in design and everything connected with it.    
-            </p>
-            <p>
+            </div>
+            <div class="description__paragraph">
                 I'm studying at courses "Web and mobile design <br>
                 interfaces" in IT-Academy.
-            </p>
-            <p>
+            </div>
+            <div class="description__paragraph">
                 Ready to implement excellent projects <br>
                 with wonderful people.
-            </p>
+            </div>
         </div>
     </section>
     <section class="skills">
@@ -69,7 +70,7 @@
             I work in such programs as
         </div>
         <div class="container">
-            <div class="skill-items">
+            <div class="skills__items">
                 <img src="icons/photoshop.svg" alt="photoshop">
                 <img src="icons/illustrator.svg" alt="illustrator">
                 <img src="icons/after_effects.svg" alt="after_effects">
