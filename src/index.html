@@ -10,17 +10,34 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <header class="header">
-        <nav class="menu">
-            <ul class="menu__list">
-                <li class="menu__item"><a href="#" class="menu__link">Home</a></li>
-                <li class="menu__item"><a href="#" class="menu__link">About me</a></li>
-                <li class="menu__item"><a href="#" class="menu__link">Skills</a></li>
-                <li class="menu__item"><a href="#" class="menu__link">Portfolio</a></li>
-                <li class="menu__item"><a href="#" class="menu__link">Contacts</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="container">
+        <header class="header">
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item"><a href="#" class="menu__link">Home</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">About me</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Skills</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Portfolio</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Contacts</a></li>
+
+                    <div class="menu__list__hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="menu__list__langswitcher xs-visible">
+                        <a href="#" class="menu__list__langswitcher_word">ru |</a>
+                        <a href="#" class="menu__list__langswitcher_word">eng</a>
+                    </div>
+                </ul>
+                <div class="menu__hamburger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+            </nav>
+        </header>
+    </div>
     <section class="greeting">
         <div class="container">
             <div class="wrapper">
@@ -32,11 +49,11 @@
                     UX | UI designer <br>
                     24 years old, Minsk
                 </div>
-                    <div class="wrapper__langswitcher">
-                        <a href="#" class="wrapper__langswitcher wrapper__langswitcher_word">ru</a>
-                        |
-                        <a href="#" class="wrapper__langswitcher wrapper__langswitcher_word">eng</a>
-                    </div>
+                <div class="wrapper__langswitcher">
+                    <a href="#" class="wrapper__langswitcher wrapper__langswitcher_word">ru</a>
+                    |
+                    <a href="#" class="wrapper__langswitcher wrapper__langswitcher_word">eng</a>
+                </div>
             </div>
             <div class="photo">
                 <img src="img/bg/foto_1.jpg" alt="photo">
@@ -83,18 +100,18 @@
             Portfolio
         </h2>
         <div class="container">
-            <div class="fashion-store">
+            <div class="portfolio__fashion-store">
                 <img src="img/bg/foto_2.jpg" alt="fashion-store">
             </div>
-            <a href="#" class="link-store">Online fashion store - Homepage</a>
-            <div class="reebok-store">
+            <a href="#" class="portfolio__link-store">Online fashion store - Homepage</a>
+            <div class="portfolio__reebok-store">
                 <img src="img/bg/reebok_web.jpg" alt="reebok-store">
             </div>
-            <a href="#" class="link-store">Reebok Store - Concept</a>
-            <div class="braun-store">
+            <a href="#" class="portfolio__link-store">Reebok Store - Concept</a>
+            <div class="portfolio__braun-store">
                 <img src="img/bg/braun_web.jpg" alt="braun-store">
             </div>
-            <a href="#" class="link-store">Braun Landing Page - Concept</a>
+            <a href="#" class="portfolio__link-store">Braun Landing Page - Concept</a>
         </div>
     </section>
     <footer class="contact">
@@ -122,6 +139,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="js/script.js"></script>
     
 </body>
 </html>
